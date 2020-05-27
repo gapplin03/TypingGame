@@ -13,5 +13,13 @@
       Timer left: <span id="timer">0.00</span>
     </p>
     <script src="js/main.js"></script>
+    <!-- 効果音を鳴らすために、jquery.jsを記述 -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="static/js/ion-sound/ion.sound.js"></script> -->
+    <audio id="sound-file" preload="auto">
+      <!-- mp3とwavに対応させた音声ファイルを読み込む -->
+      <source src="https://soundeffect-lab.info/sound/button/mp3/cursor4.mp3" type="audio/mp3">
+      <source src="https://soundeffect-lab.info/sound/button/mp3/cursor4.wav" type="audio/wav">
+    </audio>
   </body>
 </html>

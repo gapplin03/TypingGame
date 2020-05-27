@@ -2,6 +2,7 @@ body {
   padding-top: 40px;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+  background-color: #87CEEB;
 }
 
 #target {
@@ -10,5 +11,5 @@ body {
 }
 
 .info {
-  color: #ccc;
+  color: #708090;
 }
